@@ -34,7 +34,7 @@ html::-webkit-scrollbar-track {
 }
 
 html::-webkit-scrollbar-thumb {
-  background: var(---red);
+  background: var(--red);
 }
 
 section {
@@ -365,11 +365,7 @@ header .navbar a:hover {
 .footer {
   min-height: auto;
   padding-top: 2rem;
-  background: linear-gradient(
-      rgba(255, 255, 255, 0.7),
-      rgba(255, 255, 255, 0.7)
-    ),
-    url(../images/footer-bg.jpg) no-repeat;
+  background: url(img/footer-bg.png) no-repeat;
   background-size: cover;
   background-position: center;
 }
@@ -450,8 +446,6 @@ header .navbar a:hover {
   border-radius: 0.5rem;
   background: #f9f9f9;
 }
-
-/* media queries  */
 
 @media (max-width: 991px) {
   html {

@@ -106,7 +106,7 @@ header .navbar a:hover {
   display: flex;
   align-items: center;
   justify-content: space-between;
-  /* background: url(./img/logo2.png) no-repeat; */
+  background: url(img/welcome.png) no-repeat;
   background-size: cover;
   background-position: center;
 }
@@ -222,7 +222,19 @@ header .navbar a:hover {
   font-size: 1.7rem;
   padding: 1rem 0;
 }
-
+.box-bg {
+  display: flex;
+  flex-direction: row;
+  border-radius: 5px;
+  background: #eef2e6;
+  margin: 20px;
+  box-shadow: 0 4px 16px rgb(0 0 0 / 20%);
+  transition: all ease 0.5s;
+}
+.box-bg:hover {
+  transform: scale(1.1);
+  z-index: 1;
+}
 .service .box-container {
   display: flex;
   align-items: center;
